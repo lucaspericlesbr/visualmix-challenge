@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230406 18:50:07.865" rpa="false" schemaversion="3">
+<suite id="s1" name="TestSitePractice" source="c:\Users\Babfio\github-repositories\study\visualmix-automation\SuiteSiteTestePractice\tests\TestSitePractice.robot">
+<test id="s1-t1" name="006 : Fluxo Básico - Gerar novo token de acesso" line="9">
+<kw name="Abrir navegador" library="Resource" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://gorest.co.in/</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230406 18:50:08.313" level="INFO">Opening browser 'chrome' to base url 'https://gorest.co.in/'.</msg>
+<status status="PASS" starttime="20230406 18:50:08.313" endtime="20230406 18:50:17.234"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230406 18:50:17.235" endtime="20230406 18:50:17.499"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:08.313" endtime="20230406 18:50:17.500"/>
+</kw>
+<kw name="Login no sistema" library="Resource">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//a[text()="Login"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230406 18:50:17.507" endtime="20230406 18:50:17.540"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//a[text()="Login"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:17.541" level="INFO">Clicking element '//a[text()="Login"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:17.540" endtime="20230406 18:50:24.951"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//a[text()=" Google"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230406 18:50:24.952" endtime="20230406 18:50:24.991"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//a[text()=" Google"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:24.992" level="INFO">Clicking element '//a[text()=" Google"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:24.991" endtime="20230406 18:50:27.509"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//input[@name="identifier"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230406 18:50:27.509" endtime="20230406 18:50:27.568"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230406 18:50:29.570" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230406 18:50:27.568" endtime="20230406 18:50:29.571"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<arg>//input[@name="identifier"]</arg>
+<doc>Double clicks the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:29.571" level="INFO">Double clicking element '//input[@name="identifier"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:29.571" endtime="20230406 18:50:29.869"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@id="identifierId"]</arg>
+<arg>practiceautomationmix@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:29.870" level="INFO">Typing text 'practiceautomationmix@gmail.com' into text field '//input[@id="identifierId"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:29.869" endtime="20230406 18:50:30.068"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//span[text()="Próxima"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:30.069" level="INFO">Clicking element '//span[text()="Próxima"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:30.068" endtime="20230406 18:50:30.142"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//input[@name="password"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230406 18:50:30.143" endtime="20230406 18:50:31.035"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230406 18:50:33.036" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20230406 18:50:31.035" endtime="20230406 18:50:33.036"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<arg>//input[@name="password"]</arg>
+<doc>Double clicks the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:33.037" level="INFO">Double clicking element '//input[@name="password"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:33.036" endtime="20230406 18:50:33.334"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@name="password"]</arg>
+<arg>practicemix123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:33.335" level="INFO">Typing text 'practicemix123' into text field '//input[@name="password"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:33.334" endtime="20230406 18:50:33.453"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//span[text()="Próxima"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:33.454" level="INFO">Clicking element '//span[text()="Próxima"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:33.454" endtime="20230406 18:50:33.538"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:17.507" endtime="20230406 18:50:33.541"/>
+</kw>
+<kw name="Usuário clica no botão “New Access Token”" library="Resource">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//a[text()="New Acess Token"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230406 18:50:33.551" endtime="20230406 18:50:42.042"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//a[text()="New Acess Token"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:42.043" level="INFO">Clicking element '//a[text()="New Acess Token"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:42.042" endtime="20230406 18:50:44.149"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:33.551" endtime="20230406 18:50:44.149"/>
+</kw>
+<kw name="Usuário é redirecionado para página de “Generate Access Token”" library="Resource">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//h1[text()="Generate Access Token"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230406 18:50:44.269" endtime="20230406 18:50:44.886"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:44.268" endtime="20230406 18:50:44.886"/>
+</kw>
+<kw name="Usuário preenche os campos obrigatórios e clica em “Submit”" library="Resource">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//input[@name="access_token[label]"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230406 18:50:44.999" endtime="20230406 18:50:45.076"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<arg>//input[@name="access_token[label]"]</arg>
+<doc>Double clicks the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:45.076" level="INFO">Double clicking element '//input[@name="access_token[label]"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:45.076" endtime="20230406 18:50:45.382"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@name="access_token[label]"]</arg>
+<arg>tokenteste</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:45.383" level="INFO">Typing text 'tokenteste' into text field '//input[@name="access_token[label]"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:45.382" endtime="20230406 18:50:45.480"/>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<arg>//input[@name="access_token[rate_limit]"]</arg>
+<doc>Double clicks the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:45.481" level="INFO">Double clicking element '//input[@name="access_token[rate_limit]"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:45.481" endtime="20230406 18:50:45.846"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//input[@name="access_token[rate_limit]"]</arg>
+<arg>2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:45.846" level="INFO">Typing text '2' into text field '//input[@name="access_token[rate_limit]"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:45.846" endtime="20230406 18:50:45.960"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//input[@name="commit"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230406 18:50:45.961" level="INFO">Clicking element '//input[@name="commit"]'.</msg>
+<status status="PASS" starttime="20230406 18:50:45.961" endtime="20230406 18:50:48.540"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:44.998" endtime="20230406 18:50:48.540"/>
+</kw>
+<kw name="Sistema redireciona o usuário para página de “Access Tokens”" library="Resource">
+<kw name="Wait Until Location Is" library="SeleniumLibrary">
+<arg>https://gorest.co.in/my-account/access-tokens</arg>
+<doc>Waits until the current URL is ``expected``.</doc>
+<status status="PASS" starttime="20230406 18:50:48.547" endtime="20230406 18:50:50.022"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:48.547" endtime="20230406 18:50:50.023"/>
+</kw>
+<kw name="Sistema exibe token criado" library="Resource">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//a[text()="tokenteste"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230406 18:50:50.023" endtime="20230406 18:50:50.052"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:50.023" endtime="20230406 18:50:50.052"/>
+</kw>
+<kw name="Fechar navegador" library="Resource" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230406 18:50:50.054" endtime="20230406 18:50:52.823"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:50.054" endtime="20230406 18:50:52.825"/>
+</kw>
+<status status="PASS" starttime="20230406 18:50:08.310" endtime="20230406 18:50:52.828"/>
+</test>
+<status status="PASS" starttime="20230406 18:50:07.873" endtime="20230406 18:50:52.829"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestSitePractice">TestSitePractice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
