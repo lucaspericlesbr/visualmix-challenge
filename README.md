@@ -1,4 +1,8 @@
   <h1 align="center">VisualMix - JOB Challenge</h1>
+  
+* [TEST CASES DOCUMENTATION, BUGS, AND IMPROVEMENTS](https://docs.google.com/document/d/1BF3D5qXr4bXFrikpspo1_IG--bxXBl_k3QFGT4ZsKL0/edit?usp=sharing)
+
+* [API COLLECTIONS](https://drive.google.com/drive/folders/1rHNNXCOAov4uUG4Pr-OFkSdRmbeQUizv?usp=share_link)
 
 <!-- About The Project -->
 ## 🚀 About The Project
@@ -16,12 +20,6 @@ Additionally, this project will provide examples of how to run tests, including 
 All information will be available in this Git repository.
 
 PS1: The project lasted only 4 hours.
-
-PS2: Everything possible done in this time is in the link below.
-
-* [TEST CASES DOCUMENTATION, BUGS, AND IMPROVEMENTS](https://docs.google.com/document/d/1BF3D5qXr4bXFrikpspo1_IG--bxXBl_k3QFGT4ZsKL0/edit?usp=sharing)
-
-* [API COLLECTIONS](https://drive.google.com/drive/folders/1rHNNXCOAov4uUG4Pr-OFkSdRmbeQUizv?usp=share_link)
 
 <!-- Built With -->
 ## 🛠 Built With
